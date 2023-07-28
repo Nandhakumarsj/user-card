@@ -21,4 +21,5 @@
 - And their respective email address in `email`
 - `avatar` contains the source for the profile of user generated through `reqres API`
 
-> See the [deployment here](https://user-card-sjnk.netlify.app/)
+>[![Netlify Status](https://api.netlify.com/api/v1/badges/ee917d98-8c3e-4db7-befa-392e2d553737/deploy-status)](https://app.netlify.com/sites/user-card-sjnk/deploys) \
+>See the [deployment here](https://user-card-sjnk.netlify.app/) 
