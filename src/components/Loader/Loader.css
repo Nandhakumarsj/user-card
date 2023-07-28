@@ -1,0 +1,7 @@
+.loader{
+    height:calc(100vh);
+}
+.loader img{
+    margin-top: 25%;
+    margin-left: 46%;
+}

@@ -1,0 +1,65 @@
+.body{
+    background-image: url('../assets/Wave-1488px.svg');
+    margin:0;
+    background-repeat: no-repeat;
+    height:calc(100vh - 5rem);
+    background-size: contain;
+}
+.nav-bar{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font-size: x-large;
+    font-weight: 500;
+    min-height: 3rem;
+    align-items: center;
+    padding: 1rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: calc(100% - 2rem);
+    background: linear-gradient(124deg, #d5452f, #df5a5a, #e8bf36, #cfd136, #1de840, #1ddde8, #736be3, #dd57ea, #dd2bee);
+    background-size: 1800% 1800%;
+    /* for brower compatibility */
+    -webkit-animation: rainbow 30s ease infinite;
+    -z-animation: rainbow 30s ease infinite;
+    -o-animation: rainbow 30s ease infinite;
+    animation: rainbow 30s ease infinite;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.4);
+
+}
+.nav-brand{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.nav-brand:hover, .nav:hover{
+    text-decoration-line: underline;
+    cursor: pointer;
+}
+.user-cards{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(3rem + 2rem);
+}
+
+@-webkit-keyframes rainbow {
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+}
+@-moz-keyframes rainbow {
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+}
+@-o-keyframes rainbow {
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+}
+@keyframes rainbow { 
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+}

@@ -1,5 +1,4 @@
-import './App.css';
-import GetUser from "./components/GetUser.tsx";
+import GetUser from "./components/GetUser/GetUser.tsx";
 
 function App() {
   return (
