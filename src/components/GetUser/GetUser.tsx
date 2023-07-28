@@ -9,7 +9,7 @@ export default function GetUser(props) {
     const [users, setUsers] = useState([{id:2004,first_name : "Nandhakumar",last_name : "S J",email : "excelnandhu@gmail.com",avatar : NoImage}]);
     // To use load the users
     const setUserHandler = async () => {
-                    const ran = Math.floor(1);
+                    const ran = Math.floor(Math.random()*3);
                     await fetch(`https://reqres.in/api/users?page=${ran}`).then((res) => {
                         res.json().then((users: any) => {setUsers(users.data)
                             setLoad(false);
