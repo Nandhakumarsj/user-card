@@ -4,8 +4,8 @@
 
 ## Component Architecture
 
-- [`GetUser`](https://github.com/nandhakumarsj/rand-user-gen/readme.md#getuser) Component
-- [`User`](https://github.com/nandhakumarsj/rand-user-gen/readme.md#user) Component
+- [`GetUser`](https://github.com/Nandhakumarsj/user-card/tree/master/src/components/GetUser) Component
+- [`User`](https://github.com/Nandhakumarsj/user-card/tree/master/src/components/User) Component
 
 ### GetUser Component
 
@@ -20,3 +20,5 @@
 - `first_name` and `last_name` contains the respective user's names.
 - And their respective email address in `email`
 - `avatar` contains the source for the profile of user generated through `reqres API`
+
+> See the [deployment here](https://user-card-sjnk.netlify.app/)
